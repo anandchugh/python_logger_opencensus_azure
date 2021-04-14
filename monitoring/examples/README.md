@@ -45,13 +45,13 @@ pip install -r .\monitoring\requirements.txt
     python .\monitoring\examples\api_2.py 
     ```
 
-    1. Run api_3.py flask app
+    2. Run api_3.py flask app
 
     ```bash
     python .\monitoring\examples\api_3.py 
     ```
 
-    1. Run client.py 
+    3. Run client.py 
 
     ```bash
     python .\monitoring\examples\client.py 
