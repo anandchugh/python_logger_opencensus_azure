@@ -130,10 +130,9 @@ class AppLogger:
             )
         return tracer
 
-    def enable_flask_middleware(self,flask_app,component_name="AppLogger"):
-        """Enable flask middleware for tracing
+    def enable_flask(self,flask_app,component_name="AppLogger"):
+        """Enable flask for tracing
         For more info : https://github.com/census-instrumentation/opencensus-python/blob/master/contrib/opencensus-ext-flask/opencensus/ext/flask/flask_middleware.py
-
 
         Args:
             flask_app ([type]): [description]

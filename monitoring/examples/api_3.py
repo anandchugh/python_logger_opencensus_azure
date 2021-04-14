@@ -16,7 +16,7 @@ with open(logging_config_file_path) as logging_config_file:
         logging_config = json.load(logging_config_file)
 app_logger = AppLogger(config=logging_config)
 
-app_logger.enable_flask_middleware(flask_app=app,component_name= component_name)
+app_logger.enable_flask(flask_app=app,component_name= component_name)
 logger = app_logger.get_logger(component_name=component_name)
 tracer = app_logger.get_tracer(component_name=component_name)
 

@@ -10,10 +10,10 @@ This document will give the overview about examples created using AppLogger clas
     1. Rest end point exposed in **api_2.py**
     1. It also calls task1, which is an internal function.
     1. It also calls task2, which is also an internal function.
-1. **client.py**: This is client code which calls:
+1. **client**: This is client code which calls:
     1. Rest end point exposed in **api_3.py**
-    1. Also calls `util_func` function in **util.py**  
-    It passes the tracer created in client.py to util_func as a parent_tracer.
+    1. Also calls `util_func` function in **util**  
+    It passes the tracer created in `client.py` to util_func as a parent_tracer.
 
 ## Usage
 
@@ -59,7 +59,7 @@ pip install -r .\monitoring\requirements.txt
 
 ## Results of executing examples:
 
-1. Execution of client.py produces some logs on console
+1. Execution of `client.py` produces some logs on console
 ```sh
 ❯ python .\monitoring\examples\client.py
 2021-04-13 14:58:26,399 name=client level=INFO traceId=3ac9716f42b11eb4c9d895b1ce528519 spanId=0000000000000000 Calling api 3
@@ -68,9 +68,9 @@ response = b'{\n  "data": "Success API3"\n}\n'
 cess API3"\n}\n
 ```
 
-Note the traceId mentioned in above logs `3ac9716f42b11eb4c9d895b1ce528519`
+> Note the traceId mentioned in above logs `3ac9716f42b11eb4c9d895b1ce528519`
 
-This traceid can be used to filter logs in application insights.
+This `traceid` can be used to filter logs in application insights.
 
 2. Use following Kusto query to filter logs in application insights using traceId got in previous step.
 
