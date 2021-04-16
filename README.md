@@ -300,11 +300,11 @@ Examples created using AppLogger can be found [here](./monitoring/examples/READM
 
 ### Contributors
 
-Julien Chomarat (@jchomarat)  
-Benjamin Guinebertière (@benjguin)  
-Ankit Sinha (@ankitbko)  
-Prabal Deb (@prabdeb)  
-Anand Chugh (@anandchugh)  
-Megha Patil (@meghapatilcode)  
-Srikantan Sankaran (@ssrikantan)   
-Frédéric Le Coquil (flecoqui) 
+[Julien Chomarat](https://github.com/jchomarat)  
+[Benjamin Guinebertière](https://github.com/benjguin)  
+[Ankit Sinha](https://github.com/ankitbko)  
+[Prabal Deb](https://github.com/prabdeb)  
+[Megha Patil](https://github.com/meghapatilcode)  
+[Srikantan Sankaran](https://github.com/ssrikantan)   
+[Frédéric Le Coquil](https://github.com/flecoqui)  
+[Anand Chugh](https://github.com/anandchugh)  
