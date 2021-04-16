@@ -297,3 +297,14 @@ Examples created using AppLogger can be found [here](./monitoring/examples/READM
 [5]: https://github.com/census-instrumentation/opencensus-python/blob/master/contrib/opencensus-ext-flask/opencensus/ext/flask/flask_middleware.py
 [6]: https://docs.microsoft.com/en-us/azure/azure-monitor/app/correlation#role-names
 [7]: https://docs.microsoft.com/en-us/azure/azure-monitor/app/opencensus-python-dependency
+
+### Contributors
+
+Julien Chomarat (@jchomarat)  
+Benjamin Guinebertière (@benjguin)  
+Ankit Sinha (@ankitbko)  
+Prabal Deb (@prabdeb)  
+Anand Chugh (@anandchugh)  
+Megha Patil (@meghapatilcode)  
+Srikantan Sankaran (@ssrikantan)   
+Frédéric Le Coquil (flecoqui) 
