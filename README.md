@@ -1,3 +1,6 @@
+# Note
+This repo is currently **archived**. All the code in this repo has been moved to [Azure Samples](https://github.com/Azure-Samples/azure-monitor-opencensus-python)
+
 # Overview
 
 This document covers the python logger class using [OpenCensus-Python sdk][1] for [Azure Application Insights][3].
